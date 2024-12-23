@@ -6,7 +6,7 @@ import aspectRatio from "@tailwindcss/aspect-ratio";
 import safeArea from "tailwindcss-safe-area";
 
 module.exports = {
-  content: ["./public/*.html", "./index.html"],
+  content: ["./public/*.{html,js}", "./index.html"],
   theme: {
     extend: {
       borderRadius: {
