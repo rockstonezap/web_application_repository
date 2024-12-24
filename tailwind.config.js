@@ -21,8 +21,11 @@ module.exports = {
         cursor: "#f1f1f1",
         terminal: "#222222",
         cyan: "#0b3954",
-        greenTea: "#e2f1af",
-        moonstone: "#66999b",
+        moonstone: {
+          '100': "#bfec82",
+          '200': "#6fc7a1",
+          DEFAULT: "#66999b",
+        },
       },
       aspectRatio: {
         auto: "auto",

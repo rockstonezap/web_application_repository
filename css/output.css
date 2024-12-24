@@ -1337,6 +1337,10 @@ select {
   order: 9999;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -1358,6 +1362,10 @@ select {
 .size-8 {
   width: 2rem;
   height: 2rem;
+}
+
+.w-full {
+  width: 100%;
 }
 
 .max-w-7xl {
@@ -1406,8 +1414,27 @@ select {
   row-gap: 0.5rem;
 }
 
+.space-y-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(1rem * var(--tw-space-y-reverse));
+}
+
+.rounded {
+  border-radius: 10px;
+}
+
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.border {
+  border-width: 1px;
+}
+
+.border-moonstone-200 {
+  --tw-border-opacity: 1;
+  border-color: rgb(111 199 161 / var(--tw-border-opacity, 1));
 }
 
 .bg-cursor {
@@ -1425,9 +1452,28 @@ select {
   background-color: rgb(102 153 155 / var(--tw-bg-opacity, 1));
 }
 
+.bg-moonstone-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(191 236 130 / var(--tw-bg-opacity, 1));
+}
+
+.p-2 {
+  padding: 0.5rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .px-6 {
   padding-left: 1.5rem;
   padding-right: 1.5rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .py-4 {
@@ -1443,6 +1489,14 @@ select {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-2xl {
@@ -1471,6 +1525,11 @@ select {
 .text-terminal {
   --tw-text-opacity: 1;
   color: rgb(34 34 34 / var(--tw-text-opacity, 1));
+}
+
+.hover\:bg-moonstone-200:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(111 199 161 / var(--tw-bg-opacity, 1));
 }
 
 @media (min-width: 640px) {
