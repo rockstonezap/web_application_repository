@@ -19,6 +19,10 @@ app.get('/contact/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/contact.html'));
 });
 
+app.get('/degree/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/degree.html'));
+})
+
 // Initialization of server
 app.listen(PORT, () => {
     console.log(`Server is running at http://localhost:${PORT}`);

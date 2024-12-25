@@ -55,7 +55,7 @@ module.exports = {
           "@apply px-4 max-w-screen-2xl mx-auto": {},
         },
         ".prose": {
-          "@apply max-w-4xl mx-auto text-base md:text-lg text-terminal marker:text-terminal": {},
+          "@apply max-w-4xl mx-auto text-base align-middle text-terminal marker:text-terminal break-words": {},
         },
       });
     },
