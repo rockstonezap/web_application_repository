@@ -19,8 +19,14 @@ app.get('/contact/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/contact.html'));
 });
 
+// About Degree Page
 app.get('/degree/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/degree.html'));
+})
+
+// The Net page
+app.get('/net/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/net.html'));
 })
 
 // Initialization of server

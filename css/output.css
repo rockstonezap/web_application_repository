@@ -1383,6 +1383,10 @@ select {
   grid-auto-flow: column;
 }
 
+.grid-cols-1 {
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
 .flex-col {
   flex-direction: column;
 }
@@ -1397,6 +1401,10 @@ select {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.gap-12 {
+  gap: 3rem;
 }
 
 .gap-4 {
@@ -1477,11 +1485,6 @@ select {
   background-color: rgb(191 236 130 / var(--tw-bg-opacity, 1));
 }
 
-.bg-moonstone-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(111 199 161 / var(--tw-bg-opacity, 1));
-}
-
 .p-2 {
   padding: 0.5rem;
 }
@@ -1526,6 +1529,10 @@ select {
 
 .text-center {
   text-align: center;
+}
+
+.\!text-start {
+  text-align: start !important;
 }
 
 .text-2xl {
@@ -1575,14 +1582,18 @@ select {
 }
 
 @media (min-width: 640px) {
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .sm\:px-8 {
     padding-left: 2rem;
     padding-right: 2rem;
   }
 
-  .sm\:py-28 {
-    padding-top: 7rem;
-    padding-bottom: 7rem;
+  .sm\:py-20 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .sm\:text-2xl {
@@ -1613,6 +1624,19 @@ select {
   }
 }
 
+.\[\&_span\]\:border span {
+  border-width: 1px;
+}
+
+.\[\&_span\]\:border-terminal span {
+  --tw-border-opacity: 1;
+  border-color: rgb(34 34 34 / var(--tw-border-opacity, 1));
+}
+
+.\[\&_span\]\:p-5 span {
+  padding: 1.25rem;
+}
+
 .\[\&_td\]\:border td {
   border-width: 1px;
 }
@@ -1630,6 +1654,10 @@ select {
 .\[\&_td\]\:py-2 td {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+}
+
+.\[\&_td\]\:text-center td {
+  text-align: center;
 }
 
 .\[\&_td\]\:align-middle td {
