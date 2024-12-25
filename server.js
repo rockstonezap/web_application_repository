@@ -29,6 +29,10 @@ app.get('/net/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/net.html'));
 })
 
+app.get('/about/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/about.html'));
+})
+
 // Initialization of server
 app.listen(PORT, () => {
     console.log(`Server is running at http://localhost:${PORT}`);
