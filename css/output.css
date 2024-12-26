@@ -1664,6 +1664,11 @@ select {
     padding-left: 0px;
     padding-right: 0px;
   }
+
+  .lg\:py-0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
 }
 
 .\[\&_section\]\:my-8 section {
