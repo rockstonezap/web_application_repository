@@ -18,6 +18,7 @@ module.exports = {
         transparent: "transparent",
         current: "currentColor",
         inherit: "inherit",
+        white: "#fff",
         cursor: "#f1f1f1",
         terminal: "#222222",
         cyan: "#0b3954",
