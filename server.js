@@ -24,13 +24,24 @@ app.get('/degree/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/degree.html'));
 })
 
+// Special Page for FCE
+app.get('/degree/fce/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/fce.html'));
+})
+
 // The Net page
 app.get('/net/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/net.html'));
 })
 
+// About me Page
 app.get('/about/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/about.html'));
+})
+
+// Topic Page
+app.get('/competitive-chess/', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public/topic.html'));
 })
 
 // Initialization of server
