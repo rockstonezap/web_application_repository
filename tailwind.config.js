@@ -56,7 +56,10 @@ module.exports = {
           "@apply px-4 max-w-screen-2xl mx-auto": {},
         },
         ".prose": {
-          "@apply max-w-4xl mx-auto text-base align-middle text-terminal marker:text-terminal break-words": {},
+          "@apply max-w-4xl mx-auto text-base align-middle text-terminal marker:text-terminal break-words [&_h1]:mt-0 [&_h2]:mt-0": {},
+        },
+        ".table-td": {
+          "@apply border border-terminal px-4 py-2 align-middle": {},
         },
       });
     },
