@@ -1434,6 +1434,10 @@ select {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
+.\!text-wrap {
+  text-wrap: wrap !important;
+}
+
 .rounded {
   border-radius: 10px;
 }
@@ -1552,17 +1556,6 @@ select {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 150ms;
-}
-
-.\[\&_td\]\:table-td td {
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(34 34 34 / var(--tw-border-opacity, 1));
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  vertical-align: middle;
 }
 
 .hover\:bg-moonstone-200:hover {
