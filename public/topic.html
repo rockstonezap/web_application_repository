@@ -17,10 +17,10 @@
         <link rel="stylesheet" type="text/css" href="../css/output.css">
     </head>
 
-    <body class="bg-cursor sm:px-8 max-w-7xl mx-auto">
+    <body class="flex flex-col min-h-screen	bg-cursor max-w-7xl mx-auto drop-shadow-2xl">
         <header class="bg-cyan">
             <nav class="text-cursor mx-auto flex container items-center justify-between py-6">
-                <p class="text-md sm:text-2xl font-bold">Practical II Web Application</p>
+                <p class="text-md sm:text-2xl font-bold">AZ Practical II</p>
 
                 <div class="text-sm sm:text-md flex gap-x-6">
                     <a href="/">Homepage</a>
@@ -33,217 +33,225 @@
             </nav>
         </header>
 
-        <main class="text-terminal my-8 [&_section]:my-8">
-            <section class="container flex justify-center bg-moonstone rounded-xl mx-auto px-6 py-8 sm:py-20 lg:px-0">
-                <div class="flex flex-col items-center justify-center lg:flex-row gap-y-2 gap-x-20 md:px-6">
-                    <div class="prose max-w-2xl">
-                        <h1 class="text-center text-3xl font-bold">Competitive Chess</h1>
+        <main class="bg-white grow text-terminal py-6 md:px-6">
+            <section class="prose container">
+                <div class="flex flex-col justify-center">
+                    <h1 class="text-center text-3xl font-bold">Competitive Chess</h1>
 
-                        <p>The following sections will provide knowledge on the following aspects of Competitive Chess: </p>
+                    <p>The following sections will provide knowledge on the following aspects of Competitive Chess: </p>
 
-                        <ol>
-                            <li>Origin of Competitive Chess</li>
-                            <li>Tournament Formats</li>
-                            <li>Time Formats</li>
-                            <li>Arbiters - What are they?</li>
-                            <li>Key Rules in Competitive Chess</li>
-                        </ol>
+                    <ol>
+                        <li>Origin of Competitive Chess</li>
+                        <li>Tournament Formats</li>
+                        <li>Time Formats</li>
+                        <li>Arbiters - What are they?</li>
+                        <li>Key Rules in Competitive Chess</li>
+                    </ol>
 
-                        <h2 class="text-2xl font-bold">1. Origin of Competitive Chess</h2>
+                    <h2 class="text-2xl font-bold">1. Origin of Competitive Chess</h2>
 
-                        <p>
-                            The first tournaments of chess were in Leeds 1941 and in Amsterdam in 1951,
-                            however the first international chess tournament was held in London 1951
-                        </p>
+                    <p>
+                        The first tournaments of chess were in Leeds 1941 and in Amsterdam in 1951,
+                        however the first international chess tournament was held in London 1951
+                    </p>
 
-                        <p>
-                            The first tournaments of chess lacked some rules when it came to the format of the games
-                            along with the fact that it lasted for a long time (Some games could last between 8 and 10 hours because of the participants stalling),
-                            which is considered too time taking. For that reason, later on, rules were established on timer formats.
-                            Timer formats were established in the 1880s and it consists in establishing a limited time per person in a game.
-                            At first, the analog clock was used, which had only two modes: Absolute time (Set amount of time to play your moves)
-                            and Canadian Overtime (Requirement to play a set amount of moves in a set amount of time, after which the time resets).
-                        </p>
+                    <p>
+                        The first tournaments of chess lacked some rules when it came to the format of the games
+                        along with the fact that it lasted for a long time (Some games could last between 8 and 10 hours because of the participants stalling),
+                        which is considered too time taking. For that reason, later on, rules were established on timer formats.
+                        Timer formats were established in the 1880s and it consists in establishing a limited time per person in a game.
+                        At first, the analog clock was used, which had only two modes: Absolute time (Set amount of time to play your moves)
+                        and Canadian Overtime (Requirement to play a set amount of moves in a set amount of time, after which the time resets).
+                    </p>
 
-                        <p>
-                            This timer is what managed to make chess tournaments more dynamic and less time consuming and allowed for the birth of new types of chess tournament formats.
-                            The most popular formats are the Blitz and Rapid formats, which consist of 3 minutes and 10 minutes per person respectively
-                            (Blitz covers formats between 30sec and 5min while Rapid covers between 10min and 45min).
-                            Bobby Fisher considered this type of timing for games to enable the players to try to stall their games to win the game by the opponent running out of time.
-                            For that reason, Bobby Fisher patented a timer in 1988, that enabled the addition of bonus time to the player per move made.
-                            This timer is now used in all competitive chess, and is the most important aspect of competitive chess.
-                        </p>
+                    <p>
+                        This timer is what managed to make chess tournaments more dynamic and less time consuming and allowed for the birth of new types of chess tournament formats.
+                        The most popular formats are the Blitz and Rapid formats, which consist of 3 minutes and 10 minutes per person respectively
+                        (Blitz covers formats between 30sec and 5min while Rapid covers between 10min and 45min).
+                        Bobby Fisher considered this type of timing for games to enable the players to try to stall their games to win the game by the opponent running out of time.
+                        For that reason, Bobby Fisher patented a timer in 1988, that enabled the addition of bonus time to the player per move made.
+                        This timer is now used in all competitive chess, and is the most important aspect of competitive chess.
+                    </p>
 
-                        <p>
-                            An important event in history for competitive chess was the birth of FIDE, the International Chess Federation, in 1924.
-                            Previously, before 1924, chess was considered whether it should be included in the Olympic Games, however since it was very
-                            difficult to distinguish the amateur players from the professional players, this event was called off.
-                            However, the first unofficial Chess Olympiad was created right when the Olympic Games were held in the 1924 Summer Olympics in Paris.
-                            After this unofficial Chess Olympiad, the "Fédération Internationale des Échecs" (FIDE) was created.
-                        </p>
+                    <p>
+                        An important event in history for competitive chess was the birth of FIDE, the International Chess Federation, in 1924.
+                        Previously, before 1924, chess was considered whether it should be included in the Olympic Games, however since it was very
+                        difficult to distinguish the amateur players from the professional players, this event was called off.
+                        However, the first unofficial Chess Olympiad was created right when the Olympic Games were held in the 1924 Summer Olympics in Paris.
+                        After this unofficial Chess Olympiad, the "Fédération Internationale des Échecs" (FIDE) was created.
+                    </p>
 
-                        <p>
-                            The federation is responsible for the organization of all international chess tournaments and the establishment of the rules of chess.
-                            These rules are all found in the FIDE rule handbook, you can find the handbook for
-                            <a href="https://handbook.fide.com/">FIDE's rules and regulations here.</a>
-                            The most important rule established by FIDE is the Elo rating system, which is a system that allows for the ranking
-                            of players based on their performance in tournaments. This system is used in all competitive chess tournaments
-                            and is the most important aspect of competitive chess.
-                            Additionally, FIDE is responsible for the creation of new tournament formats along with the modifications of current existing formats.
-                            Most of the format modifications were made in the World Championship, as the federation could not settle for a proper format for the tournament.
-                        </p>
+                    <p>
+                        The federation is responsible for the organization of all international chess tournaments and the establishment of the rules of chess.
+                        These rules are all found in the FIDE rule handbook, you can find the handbook for
+                        <a target="_blank" href="https://handbook.fide.com/">FIDE's rules and regulations here.</a>
+                        The most important rule established by FIDE is the Elo rating system, which is a system that allows for the ranking
+                        of players based on their performance in tournaments. This system is used in all competitive chess tournaments
+                        and is the most important aspect of competitive chess.
+                        Additionally, FIDE is responsible for the creation of new tournament formats along with the modifications of current existing formats.
+                        Most of the format modifications were made in the World Championship, as the federation could not settle for a proper format for the tournament.
+                    </p>
 
-                        <h2 class="text-2xl font-bold">2. Tournament Formats</h2>
+                    <h2 class="text-2xl font-bold">2. Tournament Formats</h2>
 
-                        <p>There have been many tournament formats utilised over the times, however these are the currently used and approved by FIDE:</p>
+                    <p>There have been many tournament formats utilised over the times, however these are the currently used and approved by FIDE:</p>
 
-                        <h3>Round-robin</h3>
+                    <h3>Round-robin</h3>
 
-                        <p>In a round-robin tournament, everyone plays each other an equal amount of times. Elo Ratings are sometimes used to separate players into distinct groups in round-robin.</p>
+                    <p>In a round-robin tournament, everyone plays each other an equal amount of times. Elo Ratings are sometimes used to separate players into distinct groups in round-robin.</p>
 
-                        <p>This format is typically used for small groups of players, as this reduces the aspect of luck.</p>
+                    <p>This format is typically used for small groups of players, as this reduces the aspect of luck.</p>
 
-                        <p>The scoring system (Win/Draw/Loss) follows the 1-1/2-0 format, but in recent times a 3-1-0 system is being experimented with, to encourage players to go for the wins</p>
+                    <p>The scoring system (Win/Draw/Loss) follows the 1-1/2-0 format, but in recent times a 3-1-0 system is being experimented with, to encourage players to go for the wins</p>
 
-                        <h3>Swiss System</h3>
+                    <h3>Swiss System</h3>
 
-                        <p>This type of format is typically used when there is an excess amount of players. Often times, this
-                            format is used for chess tournaments that are not as competitive, like in the elo ratings below 2000 etc.</p>
+                    <p>This type of format is typically used when there is an excess amount of players. Often times, this
+                        format is used for chess tournaments that are not as competitive, like in the elo ratings below 2000 etc.</p>
 
-                        <p>A key aspect of this format is that the players do not face the same opponent more than once, and the number of
-                            games with white and black is equalized (or with a difference of 1 if amount of rounds is odd)</p>
+                    <p>A key aspect of this format is that the players do not face the same opponent more than once, and the number of
+                        games with white and black is equalized (or with a difference of 1 if amount of rounds is odd)</p>
 
-                        <p>In this type of format, due to the increase of draws, its common to find many players with the same score at the end of all the rounds.</p>
+                    <p>In this type of format, due to the increase of draws, its common to find many players with the same score at the end of all the rounds.</p>
 
-                        <p>This is not typically an issue when it comes to first places (Price often split) but sometimes, a tiebreak system is used.</p>
+                    <p>
+                        This is not typically an issue when it comes to first places (Price often split) but sometimes, a tiebreak system is used.
+                        A tiebreak typically compares the following data:
+                    </p>
 
-                        <p>A tiebreak typically compares the following data: </p>
+                    <ul>
+                        <li>Sonneborn–Berger score (Sums the score of each opponent won against plus half of the score of each opponent drawn against).</li>
+                        <li>Rating Performance (Typically in accordance to the formula from FIDE)</li>
+                        <li>Number of Wins, as White and as Black</li>
+                        <li>Tiebreak Games (Used mainly in far more important events).</li>
+                    </ul>
 
-                        <ul>
-                            <li>Sonneborn–Berger score (Sums the score of each opponent won against plus half of the score of each opponent drawn against).</li>
-                            <li>Rating Performance (Typically in accordance to the formula from FIDE)</li>
-                            <li>Number of Wins, as White and as Black</li>
-                            <li>Tiebreak Games (Used mainly in far more important events).</li>
-                        </ul>
+                    <p>
+                        Every type of data from the list is then checked and if a player has it higher than the other, they get 1 point.<br>
+                        The player with most points at the end of the comparison wins, if that is also still a draw, it can go down to a coinflip.
+                    </p>
 
-                        <h3>Elimination</h3>
+                    <h3>Elimination</h3>
 
-                        <p>
-                            Elimination consists of a knock-out style system. This means that for instance if a player loses, they get
-                            eliminated from the tournament, however typically a system is set for those eliminated to
-                            play each other to have a chance to get back into the tournament. This system is called the losers bracket
-                        </p>
+                    <p>
+                        Elimination consists of a knock-out style system. This means that for instance if a player loses, they get
+                        eliminated from the tournament, however typically a system is set for those eliminated to
+                        play each other to have a chance to get back into the tournament. This system is called the losers bracket
+                    </p>
 
-                        <p>
-                            Typically, in this format, it is avoided for higher rated players to play against each other at the start,
-                            since one of the higher rated could end up in the losers bracket.
-                        </p>
+                    <p>
+                        Typically, in this format, it is avoided for higher rated players to play against each other at the start,
+                        since one of the higher rated could end up in the losers bracket.
+                    </p>
 
-                        <p>
-                            To ensure fairness, 2 games are typically played, each player playing with both white and black.
-                            In case of same score, it goes into tiebreak, which depending on the tournament, can consist of
-                            more games, or playing a different time format.
-                        </p>
+                    <p>
+                        To ensure fairness, 2 games are typically played, each player playing with both white and black.
+                        In case of same score, it goes into tiebreak, which depending on the tournament, can consist of
+                        more games, or playing a different time format.
+                    </p>
 
-                        <h3>Scheveningen system</h3>
+                    <h3>Scheveningen system</h3>
 
-                        <p>
-                            This system is typically used in team based events. A chess tournament that is team based consists of players
-                            forming teams (typically either country, club or prior to the event) and they would get paired up in the tournament
-                            to play against each other.
-                        </p>
+                    <p>
+                        This system is typically used in team based events. A chess tournament that is team based consists of players
+                        forming teams (typically either country, club or prior to the event) and they would get paired up in the tournament
+                        to play against each other.
+                    </p>
 
-                        <p>
-                            When teams are paired, each player from one team plays against another player from the other team.
-                            The score per team on that round is dependent on the total score obtained by each player
-                        </p>
+                    <p>
+                        When teams are paired, each player from one team plays against another player from the other team.
+                        The score per team on that round is dependent on the total score obtained by each player
+                    </p>
 
-                        <p>A team wins when their total score is higher than their opponent's team.</p>
+                    <p>A team wins when their total score is higher than their opponent's team.</p>
 
-                        <p>
-                            These events typically award team prizes, but sometimes these events also award individual prices,
-                            based on the highest scores obtained in the tournament
-                        </p>
+                    <p>
+                        These events typically award team prizes, but sometimes these events also award individual prices,
+                        based on the highest scores obtained in the tournament
+                    </p>
 
-                        <h2 class="text-2xl font-bold">3. Time Formats</h2>
+                    <h2 class="text-2xl font-bold">3. Time Formats</h2>
 
-                        <p>
-                            Every chess event, often has a specific time format set. As mentioned prior in the origin of chess tournaments,
-                            the chess timer was created to avoid stalling in games, and to finish tournaments faster. As the chess timer was
-                            introduced, different time formats were introduced, but with time, these were categorized into five types.
-                            FIDE establishes the World Champion of each via a World Chess Championships for that time format.
-                        </p>
+                    <p>
+                        Every chess event, often has a specific time format set. As mentioned prior in the origin of chess tournaments,
+                        the chess timer was created to avoid stalling in games, and to finish tournaments faster. As the chess timer was
+                        introduced, different time formats were introduced, but with time, these were categorized into five types.
+                        FIDE establishes the World Champion of each via a World Chess Championships for that time format.
+                    </p>
 
-                        <p>The five formats are the following: </p>
+                    <p>The five formats are the following: </p>
 
-                        <ul>
-                            <li>Bullet - 1 or 2 minutes per side</li>
-                            <li>Blitz - 10 min or less</li>
-                            <li>Rapid - Between 10 and 60 min</li>
-                            <li>Classical - Typically 1h 30 min, but can vary in time from 1h to higher than 1h 30min</li>
-                            <li>Standard - 2 hours for 40 moves and an extra hour (or less) added to each player when the 40 moves have been made</li>
-                        </ul>
+                    <ul>
+                        <li><b>Bullet</b> - 1 or 2 minutes per side</li>
+                        <li><b>Blitz</b> - 10 min or less</li>
+                        <li><b>Rapid</b> - Between 10 and 60 min</li>
+                        <li><b>Classical</b> - Typically 1h 30 min, but can vary in time from 1h to higher than 1h 30min</li>
+                        <li><b>Standard</b> - 2 hours for 40 moves. Extra hour added to each player when the 40 moves have been made</li>
+                    </ul>
 
-                        <p>
-                            Depending on the tournament organiser, there is the option to add increment time,
-                            which means per move made, a slight amount of time will be added to yours. This time can vary.
-                        </p>
+                    <p>
+                        Depending on the tournament organiser, there is the option to add increment time,
+                        which means per move made, a slight amount of time will be added to yours. This time can vary.
+                    </p>
 
-                        <p>
-                            A worthy mention is the Armaggeddon mode, where the players each blind to each other wager
-                            an amount of time from their clock, and the one that wagered the most will be playing white
-                        </p>
+                    <p>
+                        A worthy mention is the Armaggeddon mode, where the players each blind to each other wager
+                        an amount of time from their clock, and the one that wagered the most will be playing white
+                    </p>
 
-                        <p>
-                            This is significant as in this mode, if you're white, when you draw, you lose while black wins.
-                            This essentially forces white to go on the offensive and be more aggressive in the game
-                        </p>
+                    <p>
+                        This is significant as in this mode, if you're white, when you draw, you lose while black wins.
+                        This essentially forces white to go on the offensive and be more aggressive in the game
+                    </p>
 
-                        <h2 class="text-2xl font-bold">4. Arbiters - What are they?</h2>
+                    <h2 class="text-2xl font-bold">4. Arbiters - What are they?</h2>
 
-                        <p>
-                            Arbiters are the people that survey and supervise the whole tournament. The arbiter's
-                            responsibility is to sort out issues among players, note down the score of a game table, and
-                            to make sure the FIDE rules are being followed.
-                        </p>
+                    <p>
+                        Arbiters are the people that survey and supervise the whole tournament. The arbiter's
+                        responsibility is to sort out issues among players, note down the score of a game table, and
+                        to make sure the FIDE rules are being followed.
+                    </p>
 
-                        <p>
-                            Some tournaments have higher security when it comes to devices or any electronical device
-                            (because of possible assistance), and most the time arbiters are also responsible for making
-                            sure there is no sort of devices violating the FIDE rules.
-                        </p>
+                    <p>
+                        Some tournaments have higher security when it comes to devices or any electronical device
+                        (because of possible assistance), and most the time arbiters are also responsible for making
+                        sure there is no sort of devices violating the FIDE rules.
+                    </p>
 
-                        <p>Arbiters also have the right to kick out any spectator if they are not following the rules and regulations.</p>
+                    <p>Arbiters also have the right to kick out any spectator if they are not following the rules and regulations.</p>
 
-                        <p>Arbiters can also kick out a player if under reasonable suspicion with possible evidence of a player cheating.</p>
+                    <p>Arbiters can also kick out a player if under reasonable suspicion with possible evidence of a player cheating.</p>
 
-                        <p>
-                            Depending on how grave the cheating was done by the player, the arbiter can decide on a ban of the player
-                            from chess tournaments for a set amount of time or a permanent ban from the FIDE and any chess tournaments
-                            related to FIDE. These things though typically have to be reported to FIDE first for approval before any specific action,
-                            but any games where the cheater played are typically nulled out, without any result for fair play policy.
-                        </p>
+                    <p>
+                        Depending on how grave the cheating was done by the player, the arbiter can decide on a ban of the player
+                        from chess tournaments for a set amount of time or a permanent ban from the FIDE and any chess tournaments
+                        related to FIDE.
+                    </p>
 
-                        <h2 class="text-2xl font-bold">5. Key Rules in Competitive Chess</h2>
+                    <p>
+                        These things though typically have to be reported to FIDE first for approval before any specific action,
+                        but any games where the cheater played are typically nulled out, without any result for fair play policy.
+                    </p>
 
-                        <ol>
-                            <li>Touch-Move Rule: When a piece is moved, you're obliged to move it in that turn.</li>
-                            <li>A move cannot be retracted if the piece has already been moved unless the move is illegal.</li>
-                            <li>
-                                A draw can be either by agreement,
-                                <a href="https://en.wikipedia.org/wiki/Stalemate">stalemate</a>,
-                                <a href="https://en.wikipedia.org/wiki/Threefold_repetition#Fivefold_repetition_rule">threefold repetition</a> or under the
-                                <a href="https://en.wikipedia.org/wiki/Fifty-move_rule#Seventy-five-move_rule">75 move rule</a>.
-                            </li>
-                        </ol>
-                    </div>
+                    <h2 class="text-2xl font-bold">5. Key Rules in Competitive Chess</h2>
+
+                    <ol>
+                        <li>Touch-Move Rule: When a piece is moved, you're obliged to move it in that turn.</li>
+                        <li>A move cannot be retracted if the piece has already been moved unless the move is illegal.</li>
+                        <li>
+                            A draw can be either by agreement,
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Stalemate">stalemate</a>,
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Threefold_repetition#Fivefold_repetition_rule">threefold repetition</a> or under the
+                            <a target="_blank" href="https://en.wikipedia.org/wiki/Fifty-move_rule#Seventy-five-move_rule">75 move rule</a>.
+                        </li>
+                    </ol>
                 </div>
             </section>
         </main>
 
         <footer class="text-cursor bg-cyan">
             <div class="flex container items-center justify-between py-4">
-                <p>&copy;2024 All Rights Reserved - Design by <a href="https://github.com/rockstonezap">Aleksandr Zapparov</a></p>
+                <p>&copy;2024 All Rights Reserved - Design by <a target="_blank" href="https://github.com/rockstonezap">Aleksandr Zapparov</a></p>
 
                 <div class="grid grid-flow-col gap-4">
                     <a class="size-8" target="_blank" href="https://www.linkedin.com/in/aleksandr-zapparov/">
