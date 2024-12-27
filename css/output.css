@@ -1447,11 +1447,6 @@ select {
   border-color: rgb(111 199 161 / var(--tw-border-opacity, 1));
 }
 
-.border-terminal {
-  --tw-border-opacity: 1;
-  border-color: rgb(34 34 34 / var(--tw-border-opacity, 1));
-}
-
 .bg-cursor {
   --tw-bg-opacity: 1;
   background-color: rgb(241 241 241 / var(--tw-bg-opacity, 1));
