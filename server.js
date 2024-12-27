@@ -15,32 +15,32 @@ app.get('/', (req, res) => {
 });
 
 // Contact me page
-app.get('/contact/', (req, res) => {
+app.get('/public/contact/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/contact.html'));
 });
 
 // About Degree Page
-app.get('/degree/', (req, res) => {
+app.get('/public/degree/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/degree.html'));
 })
 
 // Special Page for FCE
-app.get('/degree/fce/', (req, res) => {
+app.get('/public/fce', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/fce.html'));
 })
 
 // The Net page
-app.get('/net/', (req, res) => {
+app.get('/public/net/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/net.html'));
 })
 
 // About me Page
-app.get('/about/', (req, res) => {
+app.get('/public/about/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/about.html'));
 })
 
 // Topic Page
-app.get('/competitive-chess/', (req, res) => {
+app.get('/public/topic/', (req, res) => {
     res.sendFile(path.join(__dirname, 'public/topic.html'));
 })
 
