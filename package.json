@@ -4,8 +4,8 @@
   "description": "Web Application Practical II",
   "main": "index.html",
   "scripts": {
-    "watch:html": "node server.js",
     "watch:css": "npx tailwindcss -i ./css/styles.css -o ./css/output.css --watch",
+    "watch:html": "node server.js",
     "start": "npm-run-all --parallel watch:*"
   },
   "repository": {
