@@ -1434,10 +1434,6 @@ select {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
-.\!text-wrap {
-  text-wrap: wrap !important;
-}
-
 .rounded {
   border-radius: 10px;
 }
